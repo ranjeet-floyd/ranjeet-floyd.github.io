@@ -28,4 +28,4 @@
 FROM nginx:latest
 EXPOSE 80
 COPY _site /usr/share/nginx/html
-ENTRYPOINT ["/usr/share/nginx","-g","daemon off;"]
+CMD ["nginx","-g","daemon off;"]
