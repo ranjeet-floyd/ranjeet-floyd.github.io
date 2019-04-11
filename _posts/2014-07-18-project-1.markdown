@@ -1,11 +1,13 @@
 ---
 layout: default
 modal-id: 1
-date: 2014-07-18
+date: 2019-12-04
 img: cabin.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project.
+project-date: 2019
+client: Pirauta-Village by Ranjeet Kumar
+category: Education
+description: List of Students \
+{% include portfolio_grid.html %}
+
 ---
