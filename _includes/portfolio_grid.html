@@ -25,13 +25,13 @@
     <div class="row">
       {% for student in site.students %}
       <div class="col-sm-4 portfolio-item">
-        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+        <a href="#portfolioModal-{{ student.modal-id }}" class="portfolio-link" data-toggle="modal">
           <div class="caption">
             <div class="caption-content">
               <i class="fa fa-search-plus fa-3x"></i>
             </div>
           </div>
-          <img src="img/student/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}" />
+          <img src="img/student/{{ student.img }}" class="img-responsive" alt="{{ student.alt }}" />
         </a>
       </div>
       {% endfor %}
