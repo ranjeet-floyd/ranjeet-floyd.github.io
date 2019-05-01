@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: 7
+date: 2018-07-15
+img: ranjeet.jpg
+alt: ranjeet
+project-date: April 2019
+client: Village Connect Student
+category: Student
+description: Simple profile test
+---
