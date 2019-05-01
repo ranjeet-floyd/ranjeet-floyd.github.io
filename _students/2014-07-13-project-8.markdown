@@ -1,10 +1,10 @@
 ---
 layout: default
-modal-id: 1
+modal-id: 8
 date: 2018-07-15
 img: ranjeet.jpg
-alt: ranjeet
-project-date: April 2019
+alt: ranjeet profile
+project-date: April 2018
 client: Village Connect Student
 category: Student
 description: Simple profile test
